@@ -280,6 +280,12 @@
      margin: 0;
      float: right;
 }
+    .slider_image img {
+        width: 100%; /* İsteğe bağlı: % veya px olarak belirleyebilirsiniz */
+        height: auto; /* Görüntü oranını korur */
+        max-width: 500px; /* Maksimum genişlik */
+    }
+
  .right_header_info ul li {
      display: inline;
      font-size: 16px;
